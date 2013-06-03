@@ -12,7 +12,7 @@ An example project (consisting of only a project file) is located under `example
 
 ## Installation
 
-This plugin is not deloyed to Clojars. Therefore, run `make install` to ensure it is in your local repository before trying to use it.
+This plugin is not deloyed to Clojars. Therefore, run `lein install` to ensure it is in your local repository before attempting to use it.
 
 For user-level plugins put `[lein-hello "0.1.0-SNAPSHOT"]` into the `:plugins` vector of your `:user` profile, or if you are on Leiningen 1.x do `lein plugin install
 lein-hello 0.1.0-SNAPSHOT`.
