@@ -8,7 +8,8 @@
 
   :eval-in-leiningen true
 
-  :profiles {:test {:dependencies [[midje "1.5.1"]]}
+  :profiles {:test {:dependencies [[midje "1.5.1"]]
+                    :plugins [[lein-midje "3.0.1"]]}
              :dev [:test {:repl-options 
                            {:init (do (use 'midje.repl) (autotest))}}]}
 
