@@ -19,6 +19,12 @@ lein-hello 0.1.0-SNAPSHOT`.
 
 For project-level plugins: put `[lein-hello "0.1.0-SNAPSHOT"]` into the `:plugins` vector of your project.clj.
 
+## Continuous Integration
+
+[![Build Status](https://travis-ci.org/noahlz/lein-hello.png?branch=master)](https://travis-ci.org/noahlz/lein-hello)
+
+CI is hosted by [travis-ci.org](http://travis-ci.org)
+
 ## License
 
 Copyright © 2013 Noah Zucker (@noahlz / nzucker AT gmail DOT com) 
